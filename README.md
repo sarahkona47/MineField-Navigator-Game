@@ -6,12 +6,6 @@ MineField Navigator
 
 The program allows you to play the game of "MineField Navigator." A 10 x 10 grid with mines is generated and the user must find a path to the top of the grid without hitting a mine. The mines are visible and randomly placed, increasing in number as the player advances in round. A new grid is generated every time the user hits a mine or advances a round. The number of lives and round can be found on the right side of the canvas. 
 
-## Changes from Initial Plan
-
-From our initial plan, we changed two things: the visibility of the mines and the overall goal of the game. 
-First, we planned to have the mines invisible to the user, progressively adding more. The problem with that is that a massive grid with no hints about what to navigate around is nearly impossible. It would have allowed for no strategy and would have resulted in just random user movements. By keeping the mines visible, the task of crossing the field becomes feasible with the actual strategy involved. 
-Secondly, we planned for the game to run infinitely with a score accumulating based on the number of rounds completed. We wanted the game to be winnable yet increasingly difficult. By changing the condition for a win (beat 10 rounds), we were able to maintain this same mine generation style with later rounds being as difficult as we intended and with the game still having a purpose. 
-
 ## How to Play
 Our code is seperated in three classes: MineFieldNavigator, Player, and Mine. To run the game, run the MineFieldNavigator.class (main). This will generate a canvas for the game.
 
