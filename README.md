@@ -2,7 +2,7 @@ MineField Navigator
 ==========================
 ***Created by Sarah Choi and Anthony Palma***
 
-<img width="435" alt="Screen Shot 2021-12-10 at 12 41 21 PM" src="https://user-images.githubusercontent.com/89939471/145632453-9243f35b-323d-4fa4-86d3-9c4235562a39.png"><img width="435" alt="Screen Shot 2021-12-10 at 12 43 33 PM" src="https://user-images.githubusercontent.com/89939471/145632498-dec37ffa-14cd-43af-9856-17330f6ecb9f.png">
+<img width="430" alt="Screen Shot 2021-12-10 at 12 41 21 PM" src="https://user-images.githubusercontent.com/89939471/145632453-9243f35b-323d-4fa4-86d3-9c4235562a39.png"><img width="430" alt="Screen Shot 2021-12-10 at 12 43 33 PM" src="https://user-images.githubusercontent.com/89939471/145632498-dec37ffa-14cd-43af-9856-17330f6ecb9f.png">
 
 The program allows you to play the game of "MineField Navigator." A 10 x 10 grid with mines is generated and the user must find a path to the top of the grid without hitting a mine. The mines are visible and randomly placed, increasing in number as the player advances in round. A new grid is generated every time the user hits a mine or advances a round. The number of lives and round can be found on the right side of the canvas. 
 
